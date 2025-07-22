@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Analyst Portfolio - [Your Name]</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>[Your Name]</h1>
+      <p class="tagline">Data Analyst | Storyteller with Data | Problem Solver</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="profile.jpg" alt="Your photo" class="profile-photo">
+        <p>
+          Hi! I'm [Your Name], a data analyst passionate about transforming raw data into actionable insights. With experience in SQL, Python, Excel, Tableau, and more, I enjoy uncovering patterns and helping businesses make data-driven decisions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Sales Dashboard</h3>
+          <p>Built an interactive Tableau dashboard visualizing sales trends and KPIs for a retail client.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Customer Churn Analysis</h3>
+          <p>Used Python and scikit-learn to predict customer churn and identify key drivers for a telecom company.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Survey Data Insights</h3>
+          <p>Analyzed survey data using SQL and visualized findings in Power BI for a non-profit organization.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>SQL</li>
+        <li>Python (Pandas, NumPy, Matplotlib)</li>
+        <li>Excel</li>
+        <li>Tableau</li>
+        <li>Power BI</li>
+        <li>Data Visualization</li>
+        <li>Statistical Analysis</li>
+        <li>Machine Learning Basics</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+      <!-- Add other social links if needed -->
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
